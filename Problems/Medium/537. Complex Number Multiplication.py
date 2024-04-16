@@ -8,5 +8,3 @@ class Solution:
         print(int(imaginary1[0]), int(imaginary2[0]))
         imaginarysol = (int(real1[0]) * int(imaginary2[0])) + (int(imaginary1[0]) * int(real2[0]))
         return (str(realsol) + "+" + str(imaginarysol) + "i")
-solinst = Solution()
-print(solinst.complexNumberMultiply(num1="78+-76i", num2="-86+72i"))
