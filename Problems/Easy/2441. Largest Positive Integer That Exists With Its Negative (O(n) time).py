@@ -7,7 +7,7 @@ class Solution:
                     if abs(nums[i]) in nums:
                         tempmax = abs(nums[i])
                 elif nums[i] > 0:
-                    if -nums[i] in nums:
+                     if -nums[i] in nums:
                         tempmax = abs(nums[i])
         
         if tempmax == 0:
